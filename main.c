@@ -235,8 +235,8 @@ void Load_2_Simulation ( void * pvParameters )
 }
 
 void vApplicationIdleHook( void ){
-	//GPIO_write(PORT_0,PIN8,PIN_IS_HIGH);
-	//GPIO_write(PORT_0,PIN8,PIN_IS_LOW);
+	GPIO_write(PORT_0,PIN8,PIN_IS_HIGH);
+	GPIO_write(PORT_0,PIN8,PIN_IS_LOW);
 }
 /*
  * Application entry point:
